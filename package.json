@@ -2,7 +2,8 @@
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "lint-fix": "eslint --fix src/**/*.ts",
-    "build": "yarn lint-fix && tsc src/*.ts  --outDir dist/"
+    "build": "yarn lint-fix && tsc src/*.ts  --outDir dist/",
+    "prepublishOnly": "yarn build"
   },
   "bin": {
     "moment_url": "./bin/main.js"
