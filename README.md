@@ -1,6 +1,12 @@
 ## moment_scrape
 ### Install
 ```bash
+$ npm install -g moment_scrape
+             or
+$ yarn global add oment_scrape
+```
+or
+```bash
 $ git clone https://github.com/redpeacock78/moment_scrape
 $ cd moment_scrape/
 $ node unstall -g
