@@ -9,7 +9,7 @@
   },
   "name": "moment_scrape",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
   "author": "redpeacock78",
   "license": "MIT",
   "devDependencies": {
