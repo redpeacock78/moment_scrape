@@ -9,6 +9,7 @@ or
 ```bash
 $ git clone https://github.com/redpeacock78/moment_scrape
 $ cd moment_scrape/
+$ tsc src/*.ts --outDir dist/
 $ node unstall -g
       or
 $ yarn global add
