@@ -9,8 +9,11 @@ or
 ```bash
 $ git clone https://github.com/redpeacock78/moment_scrape
 $ cd moment_scrape/
+$ npm install
+      or
+$ yarn install
 $ tsc src/*.ts --outDir dist/
-$ node unstall -g
+$ node install -g
       or
 $ yarn global add
 ```
